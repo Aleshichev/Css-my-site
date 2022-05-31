@@ -14,25 +14,47 @@ h1 {
   margin: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
   font-size: 5.7em;
+  color: #354259;
 }
+
 h2 {
   font-family: "Montserrat", sans-serif;
-  text-decoration: underline;
   font-size: 2rem;
+  color: #354259;
+  font-weight: normal;
+}
+
+p {
+  color: #40514E;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
+  color: #11999E;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.miidle-container {}
-
-.bottom-container {}
+hr {
+  border-style: dotted none none;
+  border-color: #CDC2AE;
+  border-width: 8px;
+  width: 5%;
+  margin-top: 100px;
+  margin-bottom: 100px
+}
 
 .bottom-cloud {
   position: absolute;
   left: 300px;
   top: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
 
 .top-cloud {
@@ -41,7 +63,49 @@ h3 {
   top: 50px;
 }
 
-.photo1 {
+.photo {
   width: 150px;
   height: auto;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.skill-descriptions {
+  clear: left;
+}
+
+.photo1 {
+  float: left;
+  width: 150px;
+  height: auto;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.photo2 {
+  float: right;
+  width: 150px;
+  height: auto;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-link {
+  color: #11999E;
+  margin-right: 50px;
+}
+
+.bottom-container {
+  margin-top: 70px;
+  padding-top: 40px;
+  height: 120px;
+  background-color: #9ADCFF;
+}
+
+.bottomtext {
+  margin-top: 36px;
+}
+
+.contact-text {
+  margin-bottom: 50px;
 }
